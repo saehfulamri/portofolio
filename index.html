@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Saehful Amri - Portfolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/amri.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Saehful Amri</h2>
+                    <h3 class="profile__profession">Web Developer & Researcher</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/amrishf" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://id.linkedin.com/in/saehfulamri" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">2</h3>
+                        <p class="profile__info-description">
+                            Years of <br> Work
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">
+                            Completed <br> Projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">Satisfied <br> Customers</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/CV - SAEHFUL AMRI.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=6282325852123&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://m.me/amrishf15" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                    <button class="filters__button" data-target="#publications">
+                        Publications
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Payment Site</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Portfolio website</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Movil</span>
+                                    <h3 class="projects__title">Fast food app</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Movil</span>
+                                    <h3 class="projects__title">Travel app</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Tailwind CSS</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Node Js</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Laravel</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PUBLICATIONS -->
+                    <div class="skills__content grid" data-content id="publications">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Research Fields</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <!-- Field 1 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational_Thinking.pdf">Computational Thinking</a></h3>
+                                            <span class="skills__level">Jeannette M. Wing</span>
+                                        </div>
+                                    </div>
+                                    <!-- Field 2 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://af.principalmanual.com/_files/ugd/cab42a_2efbadb25e3e423d97ee44dafa7d969e.pdf">21st Century Skills</a></h3>
+                                            <span class="skills__level">Marilyn Binkley</span>
+                                        </div>
+                                    </div>
+                                    <!-- Field 3 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://www.researchgate.net/profile/Soumela-Atmatzidou/publication/265208083_How_to_Support_Students'_Computational_Thinking_Skills_in_Educational_Robotics_Activities/links/5404da760cf2c48563b12a4c/How-to-Support-Students-Computational-Thinking-Skills-in-Educational-Robotics-Activities.pdf">Educational Robotics</a></h3>
+                                            <span class="skills__level">Atmatzidou K. Soumela</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__group">
+                                    <!-- Field 4 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://d1wqtxts1xzle7.cloudfront.net/47263851/TechTrends_Publication-with-cover-page-v2.pdf?Expires=1649690612&Signature=BIdZSF3OGusduijiJGTFbE8cyzzMgo22M-eTrfzrDHgBy2XblVlQnV1ZKPdsq9IW3tpbAE2iSKCXNDU5c0~oXvXlQP2nSrba3hd7-6lwKgW1JtiDTR5H9N7sV3Jnf8kKYtg9GB8Et43mVJNvUnIgA2MxJvfRBbPWwSjDJaqXYoMFqbVX5dkjbZo5ImNKNTjKK5wD5YqRi414fdkIsuLOLoV9pTKizCqQaOGYRxkP7XOUBZcHSdiXccTCEDB1GTBVPbZVeNlgj0pJpdln3~5pwAEKJapEietYF7IgeNrFzA8hk~ARJ2WuV1roSU5yprEFqr4GXY7Q~hFFT1mhSye45Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">Teaching 21st Century Skills</a></h3>
+                                            <span class="skills__level">Aman Yadav</span>
+                                        </div>
+                                    </div>
+                                    <!-- Field 5 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://af.principalmanual.com/_files/ugd/cab42a_2efbadb25e3e423d97ee44dafa7d969e.pdf">Computer Science Education</a></h3>
+                                            <span class="skills__level">David Weintrop</span>
+                                        </div>
+                                    </div>
+                                    <!-- Field 6 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://pdf.sciencedirectassets.com/271599/1-s2.0-S0921889015X00145/1-s2.0-S0921889015001281/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCVLED3%2F434qGbQNLNvealxy%2F%2Bs3nRihNq4VK1vFEWC6wIgSR6NNW6mQq9IOEufK%2BXf%2FKBQrSyohnODGog9IbpwihQq%2BgMILxAEGgwwNTkwMDM1NDY4NjUiDNl9XtReVq1pzTuJMCrXA0I%2F06rF2NHY1jjSHAZnWr808q64iFRr8tZ0MKBVfrDr4iRmRcGc4lemjM2sbq5aI4NmxiwCxr6rFbqjtEDISEGTVg8UkvwRllNPzNB4coSsUAMpxoLAaJ5ritxzkxLhPDyBG0W3Ktkgxr0lxdN9cKIwAGURQk7NphCfX9RtSc7hK3%2F7vS8P4s8N5i1m2Vkf9MEZCRv2h%2FiCnfjTP4fIzOV%2FPxfxWQiKwM35fw6ZHxn2U9rkYJoupGQ6Nuwp5fOiMJtgi2VYj3YRCTvhAtY%2BDxSnoikHug1pH1b7d%2Bq7MNUQqfYt3hxDHV%2F04DhXQCPA8QCxhLslcDcVxvpxyIze6%2FLFsAQA%2FiMVG%2Becherr%2BW6Oc9fx3%2BWLc8SPG%2FlSLOOf4NZVnP0rHPMZD3OGR%2FvXn4UtQnspT2gBr9tLp2Kcdrbw2X5g6DzABy5p8JFyuexTQnH7KueWdu8RhLRw6uBQT4m4JEGuwaGWqNZ0BOsP6mw8x4w5DlmBY2d7hRYVfWxqsRy2g3K0Bx00E4GHGsWbdaDWxWvJqdYnnKJG0eDB%2BNr1cMMbx1sXtVrPamuzI8jW7QdlcYdeNx1ldZ75IrifGqwxjwKTxdWIHHSVhNLAAN7LKOWS4hM8GjCl5dCSBjqlAQ%...">STEM Education</a></h3>
+                                            <span class="skills__level">Amy Eguchi</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Conference Proceedings</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <!-- Publication 1 -->
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://aip.scitation.org/doi/10.1063/1.5139735">Beyond computational thinking: Investigating CT roles in the 21st century skill efficacy</a></h3>
+                                            <span class="skills__level">Published Online: 18 December 2019</span>
+                                        </div>
+                                    </div>
+                                    <!-- Publication 2 -->
+                                    <!-- <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://aip.scitation.org/doi/10.1063/1.5139735">Beyond computational thinking: Investigating CT roles in the 21st century skill efficacy</a></h3>
+                                            <span class="skills__level">Published Online: 18 December 2019</span>
+                                        </div>
+                                    </div> -->
+                                    <!-- Publication 3 -->
+                                    <!-- <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="https://aip.scitation.org/doi/10.1063/1.5139735">Beyond computational thinking: Investigating CT roles in the 21st century skill efficacy</a></h3>
+                                            <span class="skills__level">Published Online: 18 December 2019</span>
+                                        </div>
+                                    </div> -->
+        
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Research Journals</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"><a href="#">Educational Robotics: Evaluating the Role of Computational Thinking in Attaining 21st-Century Skills</a></h3>
+                                            <span class="skills__level">Under Review</span>
+                                        </div>
+                                    </div>
+        
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+              Made with <i class="ri-heart-3-line"></i> in Surakarta | &#169; Bedimcode. All Rigths Reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
